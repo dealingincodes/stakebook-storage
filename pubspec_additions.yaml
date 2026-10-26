@@ -1,0 +1,7 @@
+# Add under `dependencies:` in pubspec.yaml, then run `flutter pub get`
+dependencies:
+  provider: ^6.1.2
+  shared_preferences: ^2.3.2
+  path_provider: ^2.1.4
+  share_plus: ^11.0.0
+  file_picker: ^8.1.2
