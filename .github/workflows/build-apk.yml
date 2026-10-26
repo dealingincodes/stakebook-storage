@@ -26,7 +26,7 @@ jobs:
           rm -rf app/lib
           cp -r lib app/lib
           cd app
-          flutter pub add provider shared_preferences path_provider share_plus:^11.0.0 file_picker:^8.1.2
+          flutter pub add provider shared_preferences path_provider share_plus:^11.0.0 file_picker:^10.3.10
           grep -q allowBackup android/app/src/main/AndroidManifest.xml || \
             sed -i 's/<application/<application android:allowBackup="true"/' android/app/src/main/AndroidManifest.xml
 
